@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.link-button{
+    padding: 5px 20px;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.orange-color{
+    color: orange;
+}
+/* Explore Area */
+.explore{
+    display: flex;
+}
+.two-column {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.two-column img{
+    width: 70%;
+}
+#explore-heading{
+    border-left: 4px solid red;
+    padding-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+
+}
+/* Mission Area */
+.mission h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.three-column{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.three-column-item{
+    width: 30%;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.three-column-item img{
+    width: 50%;
+}
+#mission-column{
+    background-color: gainsboro;
+}
+#vission-column{
+    background-color: rgb(161, 130, 145);
+}
+#goals-column{
+    background-color: khaki;
+}
+/* Develop Area */
